@@ -5,11 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dara Joy</title>
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow" style="position: fixed ;width: 100%;z-index: 9999;">
     <div class="container-fluid">
       <a class="navbar-brand m-3" href="Home.html">
         <strong>Dara </strong> Joy
@@ -37,46 +38,78 @@
   <div class="container">
     <div class="row">
       <div class="col">
-        <p class="display-6 mt-4">Dara Joy</p>
-    </div>
-  </div>
-
-  <div class="card mt-4 shadow text m-auto " style="width:auto;">
-    <div class="row no-gutters">
-      <div class="col-md-4">
-        <img src="DaraJoy.jpg" class="card-img">
+        <p class="display-6 mt-4"><strong>Dara</strong> Joy</p>
       </div>
-      <div class="col-md-8">
-        <div class="card-body" >
-          <h5 class="card-title display-1"><a href="Features.html" style="text-decoration: none;">Dara Joy</a></h5>
-          <p class="card-text">I'm Dara, your private travel consultant.
-          <p class="card-text"><small class="text-muted">Dara</small></p>
+    </div>
+
+    <div class="card mt-4 shadow text m-auto " style="width:auto;">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <a href="Features.html" style="text-decoration: none;"><img src="DaraJoy.jpg" class="card-img"></a>
         </div>
-      </div>
-    </div>
-  </div>
-
-  <section class="features-icon bg-light text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4" style="margin-bottom: 3rem;">
-          <div class="features-icon-item m-auto mt-5 mb-lg-3">
-            <div class="features-icons-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-map" viewBox="0 0 16 16" style="width: 3rem; color: dodgerblue; margin-bottom: 3rem;">
-            <path fill-rule="evenodd" d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.502.502 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103zM10 1.91l-4-.8v12.98l4 .8V1.91zm1 12.98l4-.8V1.11l-4 .8v12.98zm-6-.8V1.11l-4 .8v12.98l4-.8z"/>
-            </svg>
-            </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title display-1"><a href="Features.html" style="text-decoration: none;">Dara Joy</a></h5>
+            <p class="card-text">I'm Dara, your private travel consultant.
+            <p class="card-text"><small class="text-muted">Dara</small></p>
           </div>
-          <h3>
-            Fully Responsive
-          </h3>
-          <p3 >Hello World</p3>
-
-          
-          
         </div>
       </div>
     </div>
+
+    <section class="features-icon bg-light text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4" style="margin-bottom: 3rem;">
+            <div class="features-icon-item m-auto mt-5 mb-lg-3">
+              <div class="features-icons-icon text-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-map"
+                  viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.502.502 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103zM10 1.91l-4-.8v12.98l4 .8V1.91zm1 12.98l4-.8V1.11l-4 .8v12.98zm-6-.8V1.11l-4 .8v12.98l4-.8z" />
+                </svg>
+              </div>
+            </div>
+            <h3>
+              Fully Responsive
+            </h3>
+            <p3>Talk with Dara</p3>
+          </div>
+          <div class="col-lg-4" style="margin-bottom: 3rem;">
+            <div class="features-icon-item m-auto mt-5 mb-lg-3">
+              <div class="features-icons-icon text-danger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                </svg>
+              </div>
+            </div>
+            <h3>
+              User-friendly
+            </h3>
+            <p3>Made with heart</p3>
+          </div>
+          <div class="col-lg-4" style="margin-bottom: 3rem;">
+            <div class="features-icon-item m-auto mt-5 mb-lg-3">
+              <div class="features-icons-icon text-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                  <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                </svg>
+              </div>
+            </div>
+            <h3>
+              Navigate
+            </h3>
+            <p3>Find the best destination</p3>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
   </section>
 
 
