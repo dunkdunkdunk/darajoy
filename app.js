@@ -2,7 +2,7 @@ let word = []
 
 function submit() {
     let input = document.getElementById("text").value
-    if (input == '' || input == ' ' || input == '   ' || input[0] == '<') {
+    if (input == '' || input == ' ' || input == '   ' || input.includes('<')) {
         alert("Error")
     }
     else {
