@@ -2,8 +2,8 @@ let word = []
 
 function submit() {
     let input = document.getElementById("text").value
-    if (input == '' || input == ' ' || input == '   ') {
-        alert("Please give suggestion before submit")
+    if (input == '' || input == ' ' || input == '   ' || input[0] == '<') {
+        alert("Error")
     }
     else {
         word.push(' ' + input)
