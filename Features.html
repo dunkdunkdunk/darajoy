@@ -40,8 +40,8 @@
     <div class="container">
       <div class="row align-content-lg-center">
         <div class="col-lg-10 mt-3">
-          <input type="text" id="text" name="suggestions" class="form-control form-control-lg shadow text-center"
-            placeholder="Any suggestion ?">
+          <textarea type="text" id="text" name="suggestions" class="form-control form-control-lg shadow text-center"
+                    placeholder="Any suggestion ?"> </textarea>
         </div>
         <div class="col-lg-2 mt-3 text-center">
           <button id="submit" onclick="submit()" type="button" class="btn-lg btn-outline-dark shadow">Submit</button>
@@ -65,10 +65,7 @@
       </div>
     </div>
   </div>
-  
-  <form action="POST" data-netlify="true">
-  <input name="text" type="text" placeholder="Text Here">
-</form>
+ 
 
   <script src="Features.js"></script>
   <script src="js/bootstrap.min.js"></script>
