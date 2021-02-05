@@ -40,9 +40,9 @@
       <div class="row align-content-lg-center">
         <div class="col-lg-10 mt-3">
           <form method="POST" data-netlify="true">
-          <input name="text" type="text" placeholder="Text Here" class="form-control form-control-lg shadow text-center" placeholder="Any suggestion ?">
-        </div>
-            </form>
+          <input name="text" type="text" class="form-control form-control-lg shadow text-center" placeholder="Any suggestion ?">
+          </form>
+         < /div>
         <div class="col-lg-2 mt-3 text-center">
           <button id="submit" onclick="POST" type="button" class="btn-lg btn-outline-dark shadow">Submit</button>
         </div>
@@ -56,14 +56,11 @@
       <div id="display" class="col-lg-9 bg-light border"></div>
     </div>
   </div>
-  </div>
+  </div> 
 
-  <div class="container">
-    <div class="row">
-      <div id="firstBlock" class="col-lg-6">
-      </div>
-    </div>
-  </div>
+  <form action="POST" data-netlify="true">
+    <input name="number" type="tel" placeholder="Number" class="form-control form-control-lg shadow text-center mt-3">
+      </form>
 
   <script src="Features.js"></script>
   <script src="js/bootstrap.min.js"></script>
