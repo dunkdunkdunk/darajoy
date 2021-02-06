@@ -1,8 +1,21 @@
 svg {
     width: 3rem;
     height: 3rem;
+    transition: 0.3s;
 }
-
+svg:hover {
+    transform: translate(0, -20px);
+    cursor: pointer;
+}
+svg:active {
+    transform: scale(2);
+}
+name {
+    transition: 0.3s;
+}
+#name:hover {
+    transform: translate(0,-20px);
+}
 @keyframes fadeIn {
     0% {opacity: 0;}
     100% {opacity:1;}
